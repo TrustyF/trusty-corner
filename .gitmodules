@@ -1,0 +1,6 @@
+[submodule "Review_website_vue"]
+	path = Review_website_vue
+	url = https://github.com/TrustyF/Review_website_vue.git
+[submodule "Review_website_server"]
+	path = Review_website_server
+	url = https://github.com/TrustyF/Review_website_server.git
