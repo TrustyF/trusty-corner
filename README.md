@@ -17,7 +17,7 @@ Ratings are split into: my personal rating, public rating and the combined circl
 
 ![Screenshot2](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/rating_info.jpg)
 
- The public rating is visually remapped to better match my personal rating distibution.
+ The public rating is visually remapped to better match my personal rating distribution.
 
  The combined circle takes the average of both ratings to provide an easy shorthand of the overall consensus between my personal assessment and the public opinion but also serves as a valuable reference for decision-making. This collaborative approach ensures a more comprehensive and balanced evaluation, taking into account both personal preference and the collective sentiment
 
@@ -48,3 +48,10 @@ Search fields are matched sequentially:
 - studio
 - author 
 Each field attempt to find as much as it can and moves to the next if nothing is returned. This allows for a more intuitive user experience.
+
+### Stats
+These are really just to satisfy my own curiosity. Each media category can be graphed if the necessary values are available.
+
+![Screenshot5](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/readme_images/readme_screen_3.jpg)
+
+If possible the average personal rating and public rating will be plotted against the specified category.
