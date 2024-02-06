@@ -1,4 +1,4 @@
-![Screenshot1](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/readme_images/readme_screen_1.png)
+![Screenshot1](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/readme_images/readme_screen_2.jpg)
 
 # Trusty's Corner
 
