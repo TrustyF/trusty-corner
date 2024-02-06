@@ -1,2 +1,48 @@
-# trusty-corner
-Personal media review website. Written in Vue with Python back-end
+![Screenshot1](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/readme_images/readme_screen_1.png)
+
+# Trusty's Corner
+
+Welcome! This is my personal media review website / blog. It is published on [trustymovies.com](https://trustymovies.com/).
+
+### Dev
+
+* Vue 3
+* Python Flask
+* Mysql
+* Deployed with Firebase.
+
+### Ratings
+Ratings are split into: my personal rating, public rating and the combined circle.
+
+![Screenshot2](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/rating_info.jpg)
+
+ The public rating is visually remapped to better match my personal rating distibution.
+
+ The combined circle takes the average of both ratings to provide an easy shorthand of the overall consensus between my personal assessment and the public opinion but also serves as a valuable reference for decision-making. This collaborative approach ensures a more comprehensive and balanced evaluation, taking into account both personal preference and the collective sentiment
+
+
+### Tags
+Medias are annotated with various tags. These are meant to provide a simple breakdown of my opinion, and to help you decide what to pick.
+
+![Screenshot3](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/tags_info.jpg)
+
+Tags are categorized into different colors representing their sentiment:
+
+* Gold: the highest honors, the best at what it does
+* Green: Positive
+* Purple: Caveat or disclaimer
+* Red: Negative
+* Grey: Gripe or light criticism
+
+### Searchbar
+Features a flexible keyword-matching search.
+
+![Screenshot4](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/search_info.jpg)
+
+Various Filters can also be applied in a mutually exclusive relationship.
+Search fields are matched sequentially if they previous one doesn't return any result:
+- name
+- genre
+- tags
+- studio
+- author 
