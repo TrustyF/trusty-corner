@@ -11,6 +11,7 @@ Welcome! This is my personal media review website / blog. It is published on [tr
 * Mysql
 * Deployed with Firebase.
 
+## Features
 ### Ratings
 Ratings are split into: my personal rating, public rating and the combined circle.
 
