@@ -40,10 +40,11 @@ Features a flexible keyword-matching search.
 
 ![Screenshot4](https://github.com/TrustyF/Review_website_vue/raw/master/public/home_images/search_info.jpg)
 
-Various Filters can also be applied in a mutually exclusive relationship.
-Search fields are matched sequentially if they previous one doesn't return any result:
+Various Filters can also be applied to match specific attributes like: runtime, release date, rating, etc..
+Search fields are matched sequentially:
 - name
 - genre
 - tags
 - studio
 - author 
+Each field attempt to find as much as it can and moves to the next if nothing is returned. This allows for a more intuitive user experience.
